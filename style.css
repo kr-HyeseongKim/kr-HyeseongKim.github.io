@@ -153,7 +153,6 @@ section h2::after {
 .md ol li { margin-bottom: 14px; padding-left: 4px; }
 .md ol li::marker { color: var(--faint); font-size: 14px; }
 .md li strong { color: var(--text); font-weight: 600; }
-.md li em { color: var(--muted); }
 .md a { overflow-wrap: anywhere; }
 
 /* `text` in Markdown becomes a small badge, e.g. `Submitted`, `Poster` */

@@ -73,12 +73,29 @@ async function build() {
 // Highlight the menu item for the section currently on screen.
 function watchActiveSection() {
   const links = [...document.querySelectorAll('.nav a')];
+  const sections = [...document.querySelectorAll('section[id]')];
   const setActive = (id) => links.forEach((a) => a.classList.toggle('active', a.hash === `#${id}`));
-  const observer = new IntersectionObserver(
-    (entries) => entries.forEach((e) => e.isIntersecting && setActive(e.target.id)),
-    { rootMargin: '-20% 0px -70% 0px' }
+
+  // A clicked menu item stays highlighted until the reader scrolls on their own,
+  // so short sections near the bottom of the page still light up when chosen.
+  let clicked = null;
+  links.forEach((a) => a.addEventListener('click', () => {
+    clicked = a.hash.slice(1);
+    setActive(clicked);
+  }));
+  ['wheel', 'touchmove', 'keydown'].forEach((type) =>
+    addEventListener(type, () => (clicked = null), { passive: true })
   );
-  document.querySelectorAll('section[id]').forEach((s) => observer.observe(s));
+
+  function update() {
+    if (clicked) return;
+    const atBottom = innerHeight + scrollY >= document.documentElement.scrollHeight - 2;
+    let current = sections[0];
+    for (const s of sections) if (s.getBoundingClientRect().top <= innerHeight * 0.3) current = s;
+    setActive(atBottom ? sections[sections.length - 1].id : current.id);
+  }
+  addEventListener('scroll', update, { passive: true });
+  update();
 }
 
 // Mobile menu

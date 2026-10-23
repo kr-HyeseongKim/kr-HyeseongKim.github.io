@@ -18,10 +18,11 @@ const fetchText = async (path) => {
   return res.text();
 };
 
-function linkHTML({ label, url, icon }) {
+function linkHTML({ label, url, icon, detail }) {
   const external = /^https?:/.test(url) ? ' target="_blank" rel="noopener"' : '';
   const svg = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${ICONS[icon] || ICONS.link}</svg>`;
-  return `<li><a href="${url}"${external}>${svg}<span>${label}</span></a></li>`;
+  const small = detail ? `<small>${detail}</small>` : '';
+  return `<li><a href="${url}"${external}>${svg}<span>${label}</span>${small}</a></li>`;
 }
 
 // "### Title | Date" in Markdown becomes a title with the date on the right.

@@ -6,13 +6,16 @@ tagline: Exercise Psychology · Behavior Change
 photo: profile.jpg          # replace the photo by uploading a new profile.jpg
 
 # Link buttons. icon options: email, orcid, cv, scholar, github, link
+# detail (optional) = small text shown next to the label on desktop
 links:
   - label: Email
     url: mailto:hyes.kim.kr@gmail.com
     icon: email
+    detail: hyes.kim.kr@gmail.com
   - label: ORCID
     url: https://orcid.org/0009-0002-3694-5121
     icon: orcid
+    detail: 0009-0002-3694-5121
   - label: CV (PDF)
     url: cv.pdf
     icon: cv

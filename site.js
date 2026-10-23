@@ -52,6 +52,7 @@ async function build() {
     img.alt = `Photo of ${site.name}`;
     img.onerror = () => img.remove();
   });
+  $$('cv').forEach((a) => (site.cv ? (a.href = site.cv) : a.remove()));
   $$('links').forEach((ul) => (ul.innerHTML = (site.links || []).map(linkHTML).join('')));
   $$('nav').forEach((ul) => {
     ul.innerHTML = sections.map((s) => `<li><a href="#${s.id}">${s.title}</a></li>`).join('');

@@ -57,7 +57,7 @@ GitHub Pages로 운영되는 홈페이지입니다. **내용은 모두 `content`
 
 ## 링크 버튼 추가
 
-`site.yml`의 `links`에 추가합니다. `icon`은 `email`, `orcid`, `cv`, `scholar`, `github`, `link` 중 하나.
+`site.yml`의 `links`에 추가합니다. `icon`은 `email`, `orcid`, `scholar`, `github`, `link` 중 하나.
 
 ```yaml
   - label: Google Scholar

@@ -17,11 +17,10 @@ GitHub Pages로 운영되는 홈페이지입니다. **내용은 모두 `content`
 | `content/site.yml` | 이름, 한 줄 소개, 링크 버튼, **섹션 순서와 제목**, 하단 문구 |
 | `content/research.md` | Research Interests |
 | `content/education.md` | Education |
-| `content/experience.md` | Research Experience |
+| `content/experience.md` | Experience (연구·교육 경력) |
 | `content/publications.md` | Publications |
 | `content/presentations.md` | Presentations |
-| `content/programs.md` | Program Development |
-| `content/work.md` | Work |
+| `content/programs.md` | Physical Activity Program Development |
 | `profile.jpg` | 프로필 사진 (같은 이름으로 업로드하면 교체됨) |
 | `cv.pdf` | CV 파일 (같은 이름으로 업로드) |
 

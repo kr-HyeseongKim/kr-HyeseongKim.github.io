@@ -27,15 +27,13 @@ sections:
     file: research.md
   - title: Education
     file: education.md
-  - title: Research Experience
+  - title: Experience
     file: experience.md
   - title: Publications
     file: publications.md
   - title: Presentations
     file: presentations.md
-  - title: Program Development
+  - title: Physical Activity Program Development
     file: programs.md
-  - title: Work
-    file: work.md
 
 footer: © 2026 Hyeseong Kim · Last updated October 2026

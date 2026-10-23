@@ -16,7 +16,7 @@ links:
     url: https://orcid.org/0009-0002-3694-5121
     icon: orcid
     detail: 0009-0002-3694-5121
-  - label: CV (PDF)
+  - label: CV
     url: cv.pdf
     icon: cv
 

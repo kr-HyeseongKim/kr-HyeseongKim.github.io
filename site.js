@@ -21,8 +21,9 @@ const fetchText = async (path) => {
 function linkHTML({ label, url, icon, detail }) {
   const external = /^https?:/.test(url) ? ' target="_blank" rel="noopener"' : '';
   const svg = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${ICONS[icon] || ICONS.link}</svg>`;
-  const small = detail ? `<small>${detail}</small>` : '';
-  return `<li><a href="${url}"${external}>${svg}<span>${label}</span>${small}</a></li>`;
+  // The detail sits outside the button so it can be selected and copied.
+  const text = detail ? `<span class="detail">${detail}</span>` : '';
+  return `<li><a href="${url}"${external}>${svg}<span>${label}</span></a>${text}</li>`;
 }
 
 // "### Title | Date" in Markdown becomes a title with the date on the right.

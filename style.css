@@ -91,15 +91,16 @@ h1, h2, .name { font-family: "Source Serif 4", Georgia, serif; font-weight: 600;
 .links svg { width: 15px; height: 15px; flex-shrink: 0; }
 
 /* Desktop sidebar: one link per line */
-.sidebar .links { flex-direction: column; align-items: stretch; }
-.sidebar .links a { display: flex; padding: 7px 16px; }
-.links small { display: none; }
-.sidebar .links small {
+.sidebar .links { flex-direction: column; gap: 8px; }
+.sidebar .links li { display: flex; align-items: center; gap: 12px; }
+.sidebar .links a { width: 92px; flex-shrink: 0; }
+.links .detail { display: none; }
+.sidebar .links .detail {
   display: block;
-  margin-left: auto;
-  color: var(--faint);
-  font-size: 11.5px; font-weight: 400;
+  color: var(--muted);
+  font-size: 12.5px;
   white-space: nowrap;
+  user-select: text;
 }
 
 .nav { margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--border); }

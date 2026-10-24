@@ -127,6 +127,9 @@ h1, h2, .name { font-family: "Source Serif 4", Georgia, serif; font-weight: 600;
 }
 .nav a:hover { color: var(--text); text-decoration: none; }
 .nav a.active { color: var(--accent); border-left-color: var(--accent); }
+/* Sections that open as their own page, listed under the main menu */
+.nav .pages { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); }
+.nav .pages[hidden] { display: none; }
 
 .close-btn, .topbar, .mobile-hero, .scrim { display: none; }
 
@@ -150,7 +153,12 @@ section h2::after {
 .md h3:first-child { margin-top: 0; }
 .md h3.dated { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
 .md h3 time { color: var(--faint); font-size: 14px; font-weight: 400; white-space: nowrap; font-variant-numeric: tabular-nums; }
-.md h3 + p { color: var(--muted); font-size: 15px; }
+.md .subtitle { color: var(--muted); font-size: 15px; margin: 0; }
+.md .intro { color: var(--muted); }
+.md .entry { margin-bottom: 20px; }
+.md .entry:last-child { margin-bottom: 0; }
+.md .entry h3 { margin-top: 0; }
+.md .entry ul { margin-top: 6px; }
 
 .md h4 {
   font-size: 12px; font-weight: 600;
@@ -168,8 +176,8 @@ section h2::after {
 .md li strong { color: var(--text); font-weight: 600; }
 .md a { overflow-wrap: anywhere; }
 
-/* `text` in Markdown becomes a small badge, e.g. `Submitted`, `Poster` */
-.md code {
+/* Small badge, e.g. Submitted, Poster */
+.badge, .md code {
   display: inline-block;
   font: 600 12px/1.6 "Inter", sans-serif;
   padding: 0 9px;
@@ -178,6 +186,8 @@ section h2::after {
   color: var(--accent);
   margin-left: 2px;
 }
+
+[hidden] { display: none !important; }
 
 .footer { color: var(--faint); font-size: 13px; padding: 8px 0 48px; }
 .error { color: var(--accent); background: var(--surface); padding: 16px 20px; border-radius: 10px; }

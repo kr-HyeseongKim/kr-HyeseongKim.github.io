@@ -1,0 +1,242 @@
+{
+  "name": "Hyeseong Kim",
+  "tagline": "Exercise Psychology · Behavior Change",
+  "highlight": "Kim, H.",
+  "photo": "profile.jpg",
+  "cv": "cv.pdf",
+  "updated": "2026-10",
+  "links": [
+    {
+      "label": "Email",
+      "url": "mailto:hyes.kim.kr@gmail.com",
+      "icon": "email",
+      "detail": "hyes.kim.kr@gmail.com"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0009-0002-3694-5121",
+      "icon": "orcid",
+      "detail": "0009-0002-3694-5121"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Research Interests",
+      "type": "text",
+      "page": "main",
+      "hidden": false,
+      "body": "My research interests center on psychological mechanisms underlying behavior change, particularly how motivational processes from a self-determination perspective and self-regulatory processes (e.g., metacognitive regulation) jointly translate intention into sustained physical activity across the lifespan. I am also interested in translating these mechanisms into scalable, theory-informed digital support that integrates ecological momentary assessment and intervention."
+    },
+    {
+      "title": "Education",
+      "type": "entries",
+      "page": "main",
+      "hidden": false,
+      "intro": "",
+      "items": [
+        {
+          "title": "M.S. in Physical Education",
+          "subtitle": "Department of Physical Education, Chonnam National University, Gwangju, South Korea",
+          "date": { "kind": "range", "start": { "year": 2021, "month": 9 }, "end": { "year": 2023, "month": 8 } },
+          "details": "",
+          "hidden": false
+        },
+        {
+          "title": "B.Ed. in Elementary Education",
+          "subtitle": "Department of Physical Education, Gwangju National University of Education, Gwangju, South Korea",
+          "date": { "kind": "range", "start": { "year": 2017, "month": 3 }, "end": { "year": 2021, "month": 2 } },
+          "details": "",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "title": "Experience",
+      "type": "entries",
+      "page": "main",
+      "hidden": false,
+      "intro": "",
+      "items": [
+        {
+          "title": "Mathematics Instructor",
+          "subtitle": "Sunarae Mathematics Academy, Naju, South Korea",
+          "date": { "kind": "ongoing", "start": { "year": 2026, "month": 5 }, "end": null },
+          "details": "",
+          "hidden": false
+        },
+        {
+          "title": "Part-Time Elementary Teacher",
+          "subtitle": "Wolbong Elementary School, Gwangju, South Korea",
+          "date": { "kind": "ongoing", "start": { "year": 2026, "month": 3 }, "end": null },
+          "details": "",
+          "hidden": false
+        },
+        {
+          "title": "Senior Airman (Personnel & Education Administration Specialist)",
+          "subtitle": "Plans Division, Headquarters, Republic of Korea Air Force 1st Fighter Wing, Gwangju, South Korea",
+          "date": { "kind": "range", "start": { "year": 2021, "month": 9 }, "end": { "year": 2023, "month": 7 } },
+          "details": "",
+          "hidden": false
+        },
+        {
+          "title": "Graduate Student Researcher",
+          "subtitle": "Sport and Exercise Psychology Lab, Chonnam National University, Gwangju, South Korea",
+          "date": { "kind": "range", "start": { "year": 2021, "month": 9 }, "end": { "year": 2023, "month": 7 } },
+          "details": "",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "title": "Publications",
+      "type": "publications",
+      "page": "main",
+      "hidden": false,
+      "items": [
+        {
+          "authors": "Park, S., Kim, H., Jang, M. H., Park, C. S., Gim, A., Cheong, H. K., Oh, C. M., Park, S. Y., & Oh, I. H.",
+          "year": "",
+          "title": "STEP-based physical activity behavior change for individuals with physical disabilities",
+          "journal": "International Journal of Disability, Development and Education",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "doi": "",
+          "status": "submitted",
+          "hidden": false
+        },
+        {
+          "authors": "Son, J., Kim, H., & Park, S.",
+          "year": "",
+          "title": "Understanding physical education participation dynamics: Using cluster analysis to map the sources of behavior",
+          "journal": "The Korean Journal of Physical Education",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "doi": "",
+          "status": "review",
+          "hidden": false
+        },
+        {
+          "authors": "Park, S., Kim, H., Park, S. Y., & Oh, I. H.",
+          "year": "2023",
+          "title": "Pre-pandemic physical activity as a predictor of infection and mortality associated with COVID-19: Evidence from the National Health Insurance Service",
+          "journal": "Frontiers in Public Health",
+          "volume": "11",
+          "issue": "",
+          "pages": "1072198",
+          "doi": "10.3389/fpubh.2023.1072198",
+          "status": "published",
+          "hidden": false
+        },
+        {
+          "authors": "Kim, H., & Park, S.",
+          "year": "2023",
+          "title": "Relationship between metacognition and sport psychological factors",
+          "journal": "The Korean Journal of Sports Science",
+          "volume": "32",
+          "issue": "5",
+          "pages": "353–364",
+          "doi": "",
+          "status": "published",
+          "hidden": false
+        },
+        {
+          "authors": "Kim, H., & Park, S.",
+          "year": "2022",
+          "title": "The impact of relatedness support on motivation and depression",
+          "journal": "Journal of Korean Society for the Study of Physical Education",
+          "volume": "27",
+          "issue": "4",
+          "pages": "251–262",
+          "doi": "",
+          "status": "published",
+          "hidden": false
+        },
+        {
+          "authors": "Choi, D., Kim, H., Kang, H., & Park, S.",
+          "year": "2022",
+          "title": "Relationship between perceived autonomy support, sport commitment and basic psychological needs in adolescents: The mediating effect of resilience",
+          "journal": "Korean Journal of Sport Psychology",
+          "volume": "33",
+          "issue": "1",
+          "pages": "51–62",
+          "doi": "",
+          "status": "published",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "title": "Presentations",
+      "type": "presentations",
+      "page": "main",
+      "hidden": false,
+      "items": [
+        {
+          "authors": "Son, J., Kim, H., Kim, C., & Park, S.",
+          "year": "2026",
+          "title": "Understanding physical education participation dynamics: Using cluster analysis to map the sources of behavior",
+          "venue": "Korean Alliance for Health, Physical Education, Recreation, and Dance, the 38th International Sport Science Congress 2026 in Commemorating the 1998 Seoul Olympic & Paralympic Games, Seoul",
+          "format": "Oral",
+          "hidden": false
+        },
+        {
+          "authors": "Son, J., Na, I., Cha, M., Choe, M., Kim, H., & Park, S.",
+          "year": "2025",
+          "title": "A model of self-determination theory on injury anxiety of athletes",
+          "venue": "International Society of Sport Psychology, the 16th World Congress, Hong Kong",
+          "format": "Poster",
+          "hidden": false
+        },
+        {
+          "authors": "Kim, H., Son, J., & Park, S.",
+          "year": "2023",
+          "title": "Effect of metacognition on sport psychological skills in adolescent football players",
+          "venue": "Korean Society for the Study of Physical Education, 2023 Spring Conference, Jeju",
+          "format": "Poster",
+          "hidden": false
+        },
+        {
+          "authors": "Kim, H., Jang, M. H., & Park, S.",
+          "year": "2022",
+          "title": "Relationship between relatedness support, motivation and depression: The mediating effect of resilience",
+          "venue": "Korean Society of Sport Psychology, 2022 Annual Conference, Seoul",
+          "format": "Poster",
+          "hidden": false
+        },
+        {
+          "authors": "Kim, H., & Park, S.",
+          "year": "2022",
+          "title": "Development and empirical study of physical activity promoting intervention program in people with disabilities",
+          "venue": "2022 Physiology Conference – Smart Health Care, Yeosu",
+          "format": "Oral",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "title": "Physical Activity Program Development",
+      "type": "entries",
+      "page": "main",
+      "hidden": false,
+      "intro": "CNU RISE (Regional Innovation System & Education) Project Group, Gwangju",
+      "items": [
+        {
+          "title": "One Step Healthy Playground",
+          "subtitle": "",
+          "date": { "kind": "single", "start": { "year": 2026, "month": 6 }, "end": null },
+          "details": "",
+          "hidden": false
+        },
+        {
+          "title": "Creative Character Exploration Classroom",
+          "subtitle": "",
+          "date": { "kind": "single", "start": { "year": 2025, "month": 12 }, "end": null },
+          "details": "",
+          "hidden": false
+        }
+      ]
+    }
+  ]
+}
